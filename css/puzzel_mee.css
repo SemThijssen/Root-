@@ -1,9 +1,9 @@
 body {
-    background-color: #132641;
+    background-color: #967D00;
 }
 
 #dashboard>div {
-    background-color: #132641;
+    background-color: #967D00;
     padding: 0, 15px;
     color: black;
     font-size: 20px;
@@ -26,7 +26,7 @@ body {
 }
 
 .dashboard3 {
-    background-color: #3177B2;
+    background-color: #E6C005;
     width: 600px;
     height: 100px;
     color: white;
@@ -49,7 +49,7 @@ p {
 .foto_header {
     height: 400px;
     width: 400px;
-    background-image: url(../feiten_over_basquiat.png);
+    background-image: url(../puzzel_mee.png);
     background-size: cover;
     border-radius: 0px 100px 0px 0px;
     margin: auto;

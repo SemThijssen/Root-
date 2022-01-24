@@ -1,9 +1,9 @@
 body {
-    background-color: #132641;
+    background-color: #6E4600;
 }
 
 #dashboard>div {
-    background-color: #132641;
+    background-color: #6E4600;
     padding: 0, 15px;
     color: black;
     font-size: 20px;
@@ -26,7 +26,7 @@ body {
 }
 
 .dashboard3 {
-    background-color: #3177B2;
+    background-color: #D89111;
     width: 600px;
     height: 100px;
     color: white;
@@ -40,16 +40,16 @@ body {
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     font-weight: normal;
     color: gray;
 }
 
 .foto_header {
-    height: 400px;
+    height: 100px;
     width: 400px;
-    background-image: url(../feiten_over_basquiat.png);
+    background-image: url(../vind_de_qr.png);
     background-size: cover;
     border-radius: 0px 100px 0px 0px;
     margin: auto;
