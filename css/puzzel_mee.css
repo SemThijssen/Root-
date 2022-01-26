@@ -27,8 +27,8 @@ body {
 
 .dashboard3 {
     background-color: #E6C005;
-    width: 600px;
-    height: 100px;
+    width: 200px;
+    height: 40px;
     color: white;
     font-family: "montserrat";
     font-size: 20px;
@@ -37,6 +37,21 @@ body {
     position: absolute;
     margin-top: 260px;
     text-align: center;
+}
+
+.dashboard4 {
+    background-color: #E6C005;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 00px 0px 0px 0;
+    position: absolute;
+    margin-top: 260px;
+    text-align: center;
+    left: 400px;
 }
 
 p {

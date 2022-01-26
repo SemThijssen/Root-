@@ -27,8 +27,8 @@ body {
 
 .dashboard3 {
     background-color: #3177B2;
-    width: 600px;
-    height: 100px;
+    width: 200px;
+    height: 40px;
     color: white;
     text-align: center;
     font-family: "montserrat";
@@ -37,6 +37,21 @@ body {
     border-radius: 00px 0px 0px 0;
     position: absolute;
     margin-top: 260px;
+}
+
+.dashboard4 {
+    background-color: #3177B2;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 00px 0px 0px 0;
+    position: absolute;
+    margin-top: 260px;
+    text-align: center;
+    left: 400px;
 }
 
 p {
@@ -62,11 +77,32 @@ p {
     margin: auto;
 }
 
-@media screen and (min-width:600px) {
-    .foto_header {
-        height: 400px;
-        width: 300px;
-        background-position-x: right;
-        background-position-y: top;
+@media screen and (min-width:375px) {
+    .dashboard3 {
+        background-color: #3177B2;
+        width: 200px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight: normal;
+        border-radius: 00px 0px 0px 0;
+        position: absolute;
+        margin-top: 260px;
+    }
+    .dashboard4 {
+        background-color: #3177B2;
+        width: 200px;
+        height: 40px;
+        color: white;
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight: normal;
+        border-radius: 00px 0px 0px 0;
+        position: absolute;
+        margin-top: 260px;
+        text-align: center;
+        left: 400px;
     }
 }

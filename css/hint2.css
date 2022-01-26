@@ -27,8 +27,22 @@ body {
 
 .dashboard3 {
     background-color: #D89111;
-    width: 600px;
-    height: 100px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 00px 0px 0px 0;
+    position: absolute;
+    margin-top: 260px;
+}
+
+.dashboard4 {
+    background-color: #D89111;
+    width: 200px;
+    height: 40px;
     color: white;
     font-family: "montserrat";
     font-size: 20px;
@@ -37,10 +51,18 @@ body {
     position: absolute;
     margin-top: 260px;
     text-align: center;
+    left: 400px;
 }
 
 p {
-    font-size: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+    color: gray;
+}
+
+.p1 {
+    font-size: 20px;
     text-align: center;
     font-weight: normal;
     color: gray;
@@ -49,7 +71,7 @@ p {
 .foto_header {
     height: 400px;
     width: 400px;
-    background-image: url(../leer_meer.png);
+    background-image: url(../markers-1.png);
     background-size: cover;
     border-radius: 0px 100px 0px 0px;
     margin: auto;

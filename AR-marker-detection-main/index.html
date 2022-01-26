@@ -23,32 +23,37 @@
     <a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
         <a-assets>
-            <img id="grid" src="images/border.png" />
-            <img id="earth-flat" src="images/earth-flat.jpg" />
-            <img id="michel-flat" src="images/michel.jpg" />
+            <img id="cabeza-flat" src="images/cabeza.png" />
+            <img id="warrior-flat" src="images/warrior.png" />
+            <img id="flexible-flat" src="images/flexible.png" />
             <img id="michel" src="images/michel.jpg" />
+            <img id="basquiat" src="images/basquiat.png" />
         </a-assets>
 
         <a-marker type="pattern" url="data/kanji.patt">
-            <a-box position="0 0.5 0" material="color: red; transparent: true; opacity: 0.50;">
+            <a-box position="0 0.5 0" material="src: #basquiat;">
             </a-box>
         </a-marker>
+
 
         <a-marker type="barcode" value="0">
-            <a-box position="0 0.5 0" material="src: #grid; color: yellow; transparent: true; opacity: 0.50;" log="hello yellow">
-            </a-box>
-            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #malogo;">
+            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #flexible-flat;">
             </a-plane>
+        </a-marker>
 
         </a-marker>
+
 
         <a-marker type="barcode" value="1">
-            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #malogo;">
+            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #michel;">
             </a-plane>
         </a-marker>
-
         <a-marker type="barcode" value="2">
-            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #michel;">
+            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #cabeza-flat;">
+            </a-plane>
+        </a-marker>
+        <a-marker type="barcode" value="3">
+            <a-plane position="0 0 0" rotation="-90 0 0" material="src: #warrior-flat;">
             </a-plane>
         </a-marker>
 
